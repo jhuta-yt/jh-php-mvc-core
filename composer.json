@@ -1,5 +1,6 @@
 {
   "name": "jh/php-mvc-core",
+  "version": "v0.0.3",
   "autoload": {
     "psr-4": {
       "JH\\MVCCore\\": "src/"
