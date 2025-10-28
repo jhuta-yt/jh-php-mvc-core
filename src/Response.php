@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace JH\MVCCore\src;
+namespace JH\MVCCore;
 
 class Response {
 

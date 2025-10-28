@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace JH\MVCCore\DB;
 
-use App\Models\User;
 use JH\MVCCore\Application;
 use JH\MVCCore\Model;
 

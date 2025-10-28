@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace JH\MVCCore\Form;
 
 use JH\MVCCore\Model;
