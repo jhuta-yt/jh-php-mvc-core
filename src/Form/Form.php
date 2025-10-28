@@ -2,7 +2,7 @@
 
 namespace App\Core\Form;
 
-use App\Core\Model;
+use App\Core\src\Model;
 
 class Form {
   public static function begin($action, $method) {

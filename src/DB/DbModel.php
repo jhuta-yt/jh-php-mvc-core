@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace App\Core\DB;
 
 use App\Core\Application;
-use App\Core\Model;
+use App\Core\src\Model;
 use App\Models\User;
 
 #[\AllowDynamicProperties]

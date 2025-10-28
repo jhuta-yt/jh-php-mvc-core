@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Core;
+namespace App\Core\src;
 
 abstract class Model {
   public const RULE_EMAIL    = 'email';

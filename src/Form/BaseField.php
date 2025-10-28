@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Core\Form;
 
-use App\Core\Model;
+use App\Core\src\Model;
 
 abstract class BaseField {
   public function __construct(public Model $model, public string $attribute) {

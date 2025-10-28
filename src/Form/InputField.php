@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Core\Form;
 
-use App\Core\Model;
+use App\Core\src\Model;
 
 class InputField extends BaseField {
   public const TYPE_TEXT     = 'text';
