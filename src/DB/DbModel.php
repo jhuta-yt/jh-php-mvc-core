@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace App\Core\DB;
+namespace JH\MVCCore\DB;
 
-use App\Core\Application;
-use App\Core\src\Model;
 use App\Models\User;
+use JH\MVCCore\Application;
+use JH\MVCCore\Model;
 
 #[\AllowDynamicProperties]
 abstract class DbModel extends Model {

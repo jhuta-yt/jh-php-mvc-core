@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace App\Core\src;
+namespace JH\MVCCore;
 
-use App\Core\Middlewares\BaseMiddleware;
+use JH\MVCCore\Middlewares\BaseMiddleware;
 
 class Controller {
   public string $layout = 'main';
   public string $action = '';
 
-  /** @var \App\Core\Middlewares\BaseMiddleware[] */
+  /** @var \JH\MVCCore\Middlewares\BaseMiddleware[] */
   protected array $middlewares = [];
 
   public function setLayout($layout) {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Core\DB;
+namespace JH\MVCCore\DB;
 
-use App\Core\Application;
+use JH\MVCCore\Application;
 
 class Database {
   public \PDO $pdo;

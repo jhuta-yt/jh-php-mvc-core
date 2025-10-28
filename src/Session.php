@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Core\src;
+namespace JH\MVCCore;
 
 class Session {
   protected const FLASH_KEY = "flash_messages";

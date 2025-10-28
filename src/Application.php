@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Core\src;
+namespace JH\MVCCore;
 
-use App\Core\DB\Database;
+use JH\MVCCore\DB\Database;
 
 class Application {
   public ?Controller $controller = null;

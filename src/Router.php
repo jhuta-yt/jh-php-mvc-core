@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Core\src;
+namespace JH\MVCCore;
 
-use App\Core\Exceptions\NotFoundException;
+use JH\MVCCore\Exceptions\NotFoundException;
 
 class Router {
   // public Request $request;
@@ -39,7 +39,7 @@ class Router {
       // $controller = Application::$app->controller;
       // $controller = new $callback[0]();
       // $controller->action = $callback[1];
-      /** @var \App\Core\Controller $controller */
+      /** @var \JH\MVCCore\Controller $controller */
       $controller = new $callback[0]();
       Application::$app->controller = $controller;
       $controller->action = $callback[1];

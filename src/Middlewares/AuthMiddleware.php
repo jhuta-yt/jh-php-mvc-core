@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace App\Core\Middlewares;
+namespace JH\MVCCore\Middlewares;
 
-use App\Core\src\Application;
-use App\Core\Exceptions\ForbiddenException;
+use JH\MVCCore\Application;
+use JH\MVCCore\Exceptions\ForbiddenException;
 
 class AuthMiddleware extends BaseMiddleware {
   // public array $actions = [];

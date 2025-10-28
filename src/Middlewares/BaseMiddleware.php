@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Core\Middlewares;
+namespace JH\MVCCore\Middlewares;
 
 abstract class BaseMiddleware {
   abstract public function execute();

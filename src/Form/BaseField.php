@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Core\Form;
+namespace JH\MVCCore\Form;
 
-use App\Core\src\Model;
+use JH\MVCCore\Model;
 
 abstract class BaseField {
   public function __construct(public Model $model, public string $attribute) {

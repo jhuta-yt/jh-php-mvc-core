@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Core\Form;
+namespace JH\MVCCore\Form;
 
-use App\Core\src\Model;
+use JH\MVCCore\Model;
 
 class Form {
   public static function begin($action, $method) {
